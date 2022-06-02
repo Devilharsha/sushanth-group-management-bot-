@@ -118,9 +118,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="Commands ❤️", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="R
-",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="Dev💗", url="t.me/SushanthMachineni",
             ),
         ],
         [
@@ -129,7 +127,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="Support 🤔", url="t.me/PokeSensei_Disscusion"
             ),
         ],
         [
@@ -142,9 +140,9 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-        f"Hey there! My name is {BOT_NAME}. I can manage your "
-        + "group with lots of useful features, feel free to "
-        + "add me to your group."
+        f"Whassup Darling ー(  ° ▽ ° )ﾉ "
+        + "I'm {bot_name} 𝙰𝚗𝚒𝚖𝚎 Themed Telegram Bot!"
+        + "Make Your Groups Active By Adding me there"
 )
 
 keyboard = InlineKeyboardMarkup(
