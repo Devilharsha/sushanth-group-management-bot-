@@ -77,7 +77,7 @@ async def start_bot():
             bot_modules += "|{:<15}".format(i)
         j += 1
     print("+===============================================================+")
-    print("|                              WBB                              |")
+    print("|                              sus                             |")
     print("+===============+===============+===============+===============+")
     print(bot_modules)
     print("+===============+===============+===============+===============+")
@@ -115,10 +115,11 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Commands ❓", callback_data="bot_commands"
+                text="Commands ❤️", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
+                text="R
+",
                 url="https://github.com/thehamkercat/WilliamButcherBot",
             ),
         ],
@@ -154,8 +155,8 @@ keyboard = InlineKeyboardMarkup(
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="Dev 💗",
+                url="t.me/SushanthMachineni",
             ),
         ],
         [
@@ -163,7 +164,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="Support 🤔", url="t.me/PokeSensei_Disscusion"),
         ],
     ]
 )
@@ -301,10 +302,11 @@ async def help_button(client, query):
     back_match = re.match(r"help_back", query.data)
     create_match = re.match(r"help_create", query.data)
     top_text = f"""
-Hello {query.from_user.first_name}, My name is {BOT_NAME}.
-I'm a group management bot with some usefule features.
-You can choose an option below, by clicking a button.
-Also you can ask anything in Support Group.
+Hello {query.from_user.first_name}, My name is {BOT_NAME} 
+Whassup darling  ー(  ° ▽ ° )ﾉ
+I'm {BOT_NAME} 𝙰𝚗𝚒𝚖𝚎 Themed Telegram Bot! 
+Make Your Groups Active By Adding Me There! ^^
+
 
 General command are:
  - /start: Start the bot
